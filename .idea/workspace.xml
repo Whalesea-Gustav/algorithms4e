@@ -14,25 +14,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+            <state relative-caret-position="1665">
+              <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
               <folding>
-                <element signature="class#Node#0;class#BST#0" />
-                <element signature="method#Node#0;class#Node#0;class#BST#0" />
-                <element signature="method#size#0;class#Node#0;class#BST#0" />
-                <element signature="method#size#1;class#Node#0;class#BST#0" />
-                <element signature="e#559#604#1" />
-                <element signature="method#get#1;class#Node#0;class#BST#0" />
-                <element signature="method#put#1;class#BST#0" />
-                <element signature="e#1072#1092#0" />
-                <element signature="method#min#1;class#BST#0" />
-                <element signature="method#max#1;class#BST#0" />
-                <element signature="method#floor#0;class#BST#0" />
-                <element signature="method#floor#1;class#BST#0" />
-                <element signature="e#2184#2264#1" />
-                <element signature="method#select#1;class#BST#0" />
-                <element signature="e#2711#2712#0" expanded="true" />
-                <element signature="e#2747#2748#0" expanded="true" />
+                <element signature="method#deletePredecessor#0;class#BST#0" />
+                <element signature="e#5025#5087#1" />
+                <element signature="method#deleteSuccessor#0;class#BST#0" />
               </folding>
             </state>
           </provider>
@@ -68,11 +55,11 @@
         <option value="$PROJECT_DIR$/src/chapter2/section2/quickSort.java" />
         <option value="$PROJECT_DIR$/src/chapter2/section3/P17.java" />
         <option value="$PROJECT_DIR$/src/chapter2/section3/Quick3way.java" />
-        <option value="$PROJECT_DIR$/src/chapter2/section3/P22.java" />
         <option value="$PROJECT_DIR$/src/chapter2/section3/BinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/chapter2/section4/Exercise24_PriorityQueueExplicitLinks.java" />
         <option value="$PROJECT_DIR$/src/chapter3/BST.java" />
         <option value="$PROJECT_DIR$/src/chapter3/section2/P1.java" />
+        <option value="$PROJECT_DIR$/src/chapter2/section3/P22.java" />
         <option value="$PROJECT_DIR$/src/chapter3/section2/BST.java" />
       </list>
     </option>
@@ -88,50 +75,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="algs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms4e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms4e" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="algs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
-              <item name="section2" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms4e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548670030617" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lib" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -150,7 +123,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.P22.testForQuick3way">
+  <component name="RunManager" selected="JUnit.BST.testForInitiation">
+    <configuration name="BST.testForInitiation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter3.section2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter3.section2" />
+      <option name="MAIN_CLASS_NAME" value="chapter3.section2.BST" />
+      <option name="METHOD_NAME" value="testForInitiation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="P17.testForSentinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algs" />
       <extension name="coverage">
@@ -199,21 +188,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="quickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter2.section2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chapter2.section2" />
-      <option name="MAIN_CLASS_NAME" value="chapter2.section2.quickSort" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="quickSort.testForPartition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algs" />
       <extension name="coverage">
@@ -231,19 +205,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.quickSort" />
       <item itemvalue="JUnit.quickSort.testForPartition" />
       <item itemvalue="JUnit.P17.testForShuffle" />
       <item itemvalue="JUnit.P17.testForSentinal" />
       <item itemvalue="JUnit.P22.testForQuick3way" />
+      <item itemvalue="JUnit.BST.testForInitiation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BST.testForInitiation" />
+        <item itemvalue="JUnit.P17.testForShuffle" />
         <item itemvalue="JUnit.P22.testForQuick3way" />
         <item itemvalue="JUnit.P17.testForSentinal" />
-        <item itemvalue="JUnit.P17.testForShuffle" />
         <item itemvalue="JUnit.quickSort.testForPartition" />
-        <item itemvalue="JUnit.quickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -273,45 +247,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="P17_testForSentinal - 2019.01.21 at 11h 28m 26s.xml">
-      <configuration name="P17.testForSentinal" configurationId="JUnit" />
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 56m 58s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="P17_testForSentinal - 2019.01.21 at 11h 28m 50s.xml">
-      <configuration name="P17.testForSentinal" configurationId="JUnit" />
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 57m 42s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="P17_testForShuffle - 2019.01.21 at 11h 29m 22s.xml">
-      <configuration name="P17.testForShuffle" configurationId="JUnit" />
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 58m 13s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="P17_testForShuffle - 2019.01.21 at 11h 29m 38s.xml">
-      <configuration name="P17.testForShuffle" configurationId="JUnit" />
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 59m 29s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="P17_testForSentinal - 2019.01.21 at 11h 29m 43s.xml">
-      <configuration name="P17.testForSentinal" configurationId="JUnit" />
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 59m 51s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="P17_testForSentinal - 2019.01.21 at 11h 32m 54s.xml">
-      <configuration name="P17.testForSentinal" configurationId="JUnit" />
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 00m 06s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="P22_testForQuick3way - 2019.01.21 at 23h 05m 29s.xml">
-      <configuration name="P22.testForQuick3way" configurationId="JUnit" />
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 00m 51s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="P22_testForQuick3way - 2019.01.21 at 23h 05m 32s.xml">
-      <configuration name="P22.testForQuick3way" configurationId="JUnit" />
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 01m 14s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="P22_testForQuick3way - 2019.01.21 at 23h 06m 28s.xml">
-      <configuration name="P22.testForQuick3way" configurationId="JUnit" />
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 02m 04s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="P22_testForQuick3way - 2019.01.21 at 23h 07m 41s.xml">
-      <configuration name="P22.testForQuick3way" configurationId="JUnit" />
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 02m 18s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="66515000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1735925" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17336152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,7 +294,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33467203" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3033226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38554215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,7 +304,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32931727" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.114683814" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -378,14 +352,6 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/chapter2/section3/P22.java</url>
-          <line>37</line>
-          <properties class="chapter2.section3.P22" method="testForQuick3way">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -397,26 +363,8 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/Exercise12_SublinearExtraSpace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="94" column="10" lean-forward="true" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
-          <folding>
-            <element signature="e#223#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/Exercise11_Improvements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#118#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/Exercise12_SublinearExtraSpace.java" />
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/Exercise11_Improvements.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter2/section2/P11Ref.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
@@ -461,16 +409,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/Exercise14_MergingSortedQueues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/Exercise14_MergingSortedQueues.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter2/section2/mergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -481,13 +420,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/BottomUpMergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/BottomUpMergeSort.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter2/section2/P16.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
@@ -498,13 +431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/Exercise16_NaturalMergesort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="62" column="28" lean-forward="true" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/Exercise16_NaturalMergesort.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter2/section2/P14and15.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -515,62 +442,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Lib/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="565" selection-start-line="565" selection-end-line="565" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/Exercise17_LinkedListSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2070">
-          <caret line="176" column="21" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#Node#0;class#Exercise17_LinkedListSort#0" />
-            <element signature="class#ListIterator#0;class#Exercise17_LinkedListSort#0" />
-            <element signature="method#main#0;class#Exercise17_LinkedListSort#0" />
-            <element signature="method#createList#0;class#Exercise17_LinkedListSort#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java" />
+    <entry file="jar://$PROJECT_DIR$/../Lib/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/reflect/Method.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java" />
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section2/Exercise17_LinkedListSort.java" />
+    <entry file="jar://$PROJECT_DIR$/../Lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class" />
+    <entry file="jar://$PROJECT_DIR$/../Lib/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class" />
     <entry file="file://$PROJECT_DIR$/src/chapter2/section2/SortOrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -622,27 +500,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section3/Exercise20_NonrecursiveQuicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="87" column="37" lean-forward="true" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section3/Exercise20_NonrecursiveQuicksort.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter2/section3/P17.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter2/section3/P22.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -656,43 +518,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section3/Exercise22_Fast3WayPartitioning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3960" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section3/Exercise22_Fast3WayPartitioning.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter2/section4/Exercise24_PriorityQueueExplicitLinks.java" />
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section4/Exercise30_DynamicMedianFinding.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section4/Exercise33_IndexPriorityQueueImplementation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section4/Exercise29_MinMaxPriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section4/Exercise24_PriorityQueueExplicitLinks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="203" selection-start-line="203" selection-end-line="203" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section5/Exercise2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section4/Exercise30_DynamicMedianFinding.java" />
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section4/Exercise33_IndexPriorityQueueImplementation.java" />
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section4/Exercise29_MinMaxPriorityQueue.java" />
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section4/Exercise24_PriorityQueueExplicitLinks.java" />
+    <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section5/Exercise2.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter2/section4/BinaryHeap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -707,27 +539,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/chapter2/section3/P22Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/section3/P22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+        <state relative-caret-position="1665">
+          <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
           <folding>
-            <element signature="class#Node#0;class#BST#0" />
-            <element signature="method#Node#0;class#Node#0;class#BST#0" />
-            <element signature="method#size#0;class#Node#0;class#BST#0" />
-            <element signature="method#size#1;class#Node#0;class#BST#0" />
-            <element signature="e#559#604#1" />
-            <element signature="method#get#1;class#Node#0;class#BST#0" />
-            <element signature="method#put#1;class#BST#0" />
-            <element signature="e#1072#1092#0" />
-            <element signature="method#min#1;class#BST#0" />
-            <element signature="method#max#1;class#BST#0" />
-            <element signature="method#floor#0;class#BST#0" />
-            <element signature="method#floor#1;class#BST#0" />
-            <element signature="e#2184#2264#1" />
-            <element signature="method#select#1;class#BST#0" />
-            <element signature="e#2711#2712#0" expanded="true" />
-            <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="method#deletePredecessor#0;class#BST#0" />
+            <element signature="e#5025#5087#1" />
+            <element signature="method#deleteSuccessor#0;class#BST#0" />
           </folding>
         </state>
       </provider>
@@ -789,7 +629,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -797,7 +636,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Lib</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
