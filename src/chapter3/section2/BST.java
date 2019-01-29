@@ -1,6 +1,7 @@
 package chapter3.section2;
 import org.junit.Test;
 import org.junit.Assert;
+import java.util.LinkedList;
 public class BST <Key extends Comparable<Key>, Value> {
     private Node root;
     private class Node {
@@ -157,6 +158,7 @@ public class BST <Key extends Comparable<Key>, Value> {
 
     public void delete(Key key) {
         root = deletePredecessor(root, key);
+        //root = deleteSuccessor(root, key);
     }
     //使用先驱节点
     private Node deletePredecessor(Node rt, Key k) {
@@ -194,6 +196,23 @@ public class BST <Key extends Comparable<Key>, Value> {
 
     }
 
-    
+    public Iterable<Key> keys() {
+        return keys(this.min(), this.max());
+    }
+    private Iterable<Key> keys(Key lo, Key hi) {
+        LinkedList<Key> answer = new LinkedList<>();
+        keys(root, answer, lo, hi);
+        return answer;
+    }
+    private void keys(Node rt, LinkedList<Key> answer, Key lo, Key hi) {
+        if (rt == null) return;
+        int cmplo = lo.compareTo(rt.key);
+        int cmphi = hi.compareTo(rt.key);
+        if (cmplo <= 0 && cmphi >= 0) answer.add(rt.key);
+        if (cmplo < 0) keys(rt.left, answer, lo, hi);
+        if (cmphi > 0) keys(rt.right, answer, lo, hi);
+    }
+
+
 
 }

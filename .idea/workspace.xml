@@ -14,12 +14,38 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
+            <state relative-caret-position="144">
+              <caret line="158" column="32" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
               <folding>
+                <element signature="class#Node#0;class#BST#0" />
+                <element signature="method#Node#0;class#Node#0;class#BST#0" />
+                <element signature="method#testForInitiation#0;class#BST#0" />
+                <element signature="method#size#0;class#BST#0" />
+                <element signature="method#size#1;class#BST#0" />
+                <element signature="method#get#1;class#BST#0" />
+                <element signature="method#put#1;class#BST#0" />
+                <element signature="e#1072#1092#0" />
+                <element signature="method#min#1;class#BST#0" />
+                <element signature="method#max#1;class#BST#0" />
+                <element signature="method#floor#0;class#BST#0" />
+                <element signature="method#floor#1;class#BST#0" />
+                <element signature="e#2171#2340#1" />
+                <element signature="method#ceiling#1;class#BST#0" />
+                <element signature="e#3353#3382#1" />
+                <element signature="e#3391#3434#1" />
+                <element signature="method#select#1;class#BST#0" />
+                <element signature="e#3717#3754#1" />
+                <element signature="method#rank#1;class#BST#0" />
+                <element signature="method#deleteMin#1;class#BST#0" />
+                <element signature="method#deleteMax#0;class#BST#0" />
+                <element signature="method#deleteMax#1;class#BST#0" />
+                <element signature="method#delete#0;class#BST#0" />
                 <element signature="method#deletePredecessor#0;class#BST#0" />
                 <element signature="e#5025#5087#1" />
                 <element signature="method#deleteSuccessor#0;class#BST#0" />
+                <element signature="e#5586#5622#1" />
+                <element signature="method#keys#1;class#BST#0" />
+                <element signature="method#keys#2;class#BST#0" />
               </folding>
             </state>
           </provider>
@@ -562,12 +588,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1665">
-          <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
+        <state relative-caret-position="144">
+          <caret line="158" column="32" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
           <folding>
+            <element signature="class#Node#0;class#BST#0" />
+            <element signature="method#Node#0;class#Node#0;class#BST#0" />
+            <element signature="method#testForInitiation#0;class#BST#0" />
+            <element signature="method#size#0;class#BST#0" />
+            <element signature="method#size#1;class#BST#0" />
+            <element signature="method#get#1;class#BST#0" />
+            <element signature="method#put#1;class#BST#0" />
+            <element signature="e#1072#1092#0" />
+            <element signature="method#min#1;class#BST#0" />
+            <element signature="method#max#1;class#BST#0" />
+            <element signature="method#floor#0;class#BST#0" />
+            <element signature="method#floor#1;class#BST#0" />
+            <element signature="e#2171#2340#1" />
+            <element signature="method#ceiling#1;class#BST#0" />
+            <element signature="e#3353#3382#1" />
+            <element signature="e#3391#3434#1" />
+            <element signature="method#select#1;class#BST#0" />
+            <element signature="e#3717#3754#1" />
+            <element signature="method#rank#1;class#BST#0" />
+            <element signature="method#deleteMin#1;class#BST#0" />
+            <element signature="method#deleteMax#0;class#BST#0" />
+            <element signature="method#deleteMax#1;class#BST#0" />
+            <element signature="method#delete#0;class#BST#0" />
             <element signature="method#deletePredecessor#0;class#BST#0" />
             <element signature="e#5025#5087#1" />
             <element signature="method#deleteSuccessor#0;class#BST#0" />
+            <element signature="e#5586#5622#1" />
+            <element signature="method#keys#1;class#BST#0" />
+            <element signature="method#keys#2;class#BST#0" />
           </folding>
         </state>
       </provider>
