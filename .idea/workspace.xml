@@ -14,10 +14,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+            <state relative-caret-position="1080">
+              <caret line="169" column="49" selection-start-line="169" selection-start-column="49" selection-end-line="169" selection-end-column="49" />
               <folding>
-                <element signature="class#Node#0;class#BST#0" />
                 <element signature="method#Node#0;class#Node#0;class#BST#0" />
                 <element signature="method#size#0;class#Node#0;class#BST#0" />
                 <element signature="method#size#1;class#Node#0;class#BST#0" />
@@ -30,9 +29,16 @@
                 <element signature="method#floor#0;class#BST#0" />
                 <element signature="method#floor#1;class#BST#0" />
                 <element signature="e#2184#2264#1" />
+                <element signature="method#ceiling#1;class#BST#0" />
+                <element signature="e#2623#2750#1" />
+                <element signature="e#2793#2836#1" />
                 <element signature="method#select#1;class#BST#0" />
-                <element signature="e#2711#2712#0" expanded="true" />
-                <element signature="e#2747#2748#0" expanded="true" />
+                <element signature="e#3119#3156#1" />
+                <element signature="method#rank#1;class#BST#0" />
+                <element signature="method#deleteMin#1;class#BST#0" />
+                <element signature="method#deleteMax#1;class#BST#0" />
+                <element signature="e#3988#3989#0" expanded="true" />
+                <element signature="e#4018#4019#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548670030617" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548677373026" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lib" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -268,7 +274,7 @@
       <workItem from="1548163603825" duration="2566000" />
       <workItem from="1548248041160" duration="605000" />
       <workItem from="1548323355766" duration="2288000" />
-      <workItem from="1548571377880" duration="8023000" />
+      <workItem from="1548571377880" duration="11750000" />
     </task>
     <servers />
   </component>
@@ -305,7 +311,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66515000" />
+    <option name="totallyTimeSpent" value="70242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -709,10 +715,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
+        <state relative-caret-position="1080">
+          <caret line="169" column="49" selection-start-line="169" selection-start-column="49" selection-end-line="169" selection-end-column="49" />
           <folding>
-            <element signature="class#Node#0;class#BST#0" />
             <element signature="method#Node#0;class#Node#0;class#BST#0" />
             <element signature="method#size#0;class#Node#0;class#BST#0" />
             <element signature="method#size#1;class#Node#0;class#BST#0" />
@@ -725,9 +730,16 @@
             <element signature="method#floor#0;class#BST#0" />
             <element signature="method#floor#1;class#BST#0" />
             <element signature="e#2184#2264#1" />
+            <element signature="method#ceiling#1;class#BST#0" />
+            <element signature="e#2623#2750#1" />
+            <element signature="e#2793#2836#1" />
             <element signature="method#select#1;class#BST#0" />
-            <element signature="e#2711#2712#0" expanded="true" />
-            <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#3119#3156#1" />
+            <element signature="method#rank#1;class#BST#0" />
+            <element signature="method#deleteMin#1;class#BST#0" />
+            <element signature="method#deleteMax#1;class#BST#0" />
+            <element signature="e#3988#3989#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -15,10 +15,8 @@ public class BST <Key extends Comparable<Key>, Value> {
         }
     }
 
-
     public int size() { return size(root); }
-
-    public int size(Node root) {
+    private int size(Node root) {
         if (root == null) return 0;
         else return root.N;
     }
@@ -26,7 +24,6 @@ public class BST <Key extends Comparable<Key>, Value> {
     public Value get(Key key) {
         return get(root, key);
     }
-
     private Value get(Node rt, Key k) {
             if (rt == null) return null;
 
@@ -39,7 +36,6 @@ public class BST <Key extends Comparable<Key>, Value> {
     public void put(Key key, Value val) {
         root = put(root, key, val);
     }
-
     public Node put(Node rt, Key k, Value v) {
         //如果k存在于root中，则更新它的值
         //否则new一个Node，并插入到树的节点中
@@ -86,6 +82,20 @@ public class BST <Key extends Comparable<Key>, Value> {
         }
     }
 
+    public Key ceiling(Key k) {
+        return ceiling(root, k).key;
+    }
+    private Node ceiling(Node rt, Key k) {
+        if (rt == null) return null;
+        int cmp = rt.key.compareTo(k);
+        if (cmp < 0) return ceiling(rt.right, k);
+        else {
+            Node temp = ceiling(rt.left, k);
+            if (temp == null) return rt;
+            else return temp;
+        }
+    }
+
     public Key select(int k) {
         return select(root, k).key;
     }
@@ -106,7 +116,60 @@ public class BST <Key extends Comparable<Key>, Value> {
         if (cmp < 0) return size(rt.left) + 1 + rank(rt.right, k);
         else if (cmp > 0) return rank(rt.left, k);
         else return size(rt.left);
-        
+
     }
 
+    public void deleteMin() {
+        root = deleteMin(root);
+    }
+    private Node deleteMin(Node rt) {
+        if (rt.left == null) return rt.right; // 终止条件，最后对末端的
+        rt.left = deleteMin(rt.left);
+        rt.N = size(rt.left) + size(rt.right) + 1;
+        return rt;
+    }
+
+    public void deleteMax() {
+        root = deleteMax(root);
+    }
+    private Node deleteMax(Node rt) {
+        if (rt.right == null) return rt.left;
+        rt.right = deleteMax(rt.right);
+        rt.N = size(rt.left) + size(rt.right) + 1;
+        return rt;
+    }
+
+    public void delete(Key k) {
+        root = deleteWithSuccessor(root, k);
+    }
+    private Node deleteWithSuccessor(Node rt, Key k) {
+        if (rt == null) return null;
+        int cmp = rt.key.compareTo(k);
+        if (cmp > 0) rt.left = deleteWithSuccessor(rt.left, k);
+        else if (cmp < 0) rt.right = deleteWithSuccessor(rt.right, k);
+        else { // rt.key == k, 使用后继节点 -- 右数的最小值
+            Node temp = rt;
+            rt = min(temp.right);
+            rt.right = deleteMin(temp.right);
+            rt.left = temp.left;
+        }
+        rt.N = size(rt.left) + size(rt.right) + 1;
+        return rt;
+    }
+    private Node deleteWithPredecessor(Node rt, Key k) {
+        if (rt == null) return null;
+        int cmp = rt.key.compareTo(k);
+        if (cmp > 0) rt.left = deleteWithPredecessor(rt.left, k);
+        else if (cmp < 0) rt.right = deleteWithPredecessor(rt.right, k);
+        else { // rt.key == k, 使用前趋节点 -- 左树的最大值
+            Node temp = rt;
+            rt = max(temp.left);
+            rt.left = deleteMax(temp.left);
+            rt.right = temp.right;
+        }
+        rt.N = size(rt.left) + size(rt.right) + 1;
+        return rt;
+    }
 }
+
+
