@@ -1,15 +1,19 @@
 package chapter3.section2;
-import org.junit.Test;
-import org.junit.Assert;
-import java.util.LinkedList;
-public class BST <Key extends Comparable<Key>, Value> {
-    protected Node root;
 
-    protected class Node {
-        protected Key key;
-        protected Value val;
-        protected Node left, right;
-        protected int N; // sz, or numbers of Node in tree
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.util.LinkedList;
+
+public class P6<Key extends Comparable, Value> {
+    private Node root;
+
+    private class Node {
+        private Key key;
+        private Value val;
+        private Node left, right;
+        private int N; // sz, or numbers of Node in tree
+        private int height;
 
         public Node(Key k, Value v, int n) {
             this.key = k;
@@ -18,28 +22,11 @@ public class BST <Key extends Comparable<Key>, Value> {
         }
     }
 
-    @Test
-    public void testForInitiation() {
-        BST<Character, Integer> tree = new BST<>();
-        tree.put('A', 10);
-        tree.put('B', 20);
-        tree.put('D', 30);
-        tree.put('C', 40);
-        Assert.assertEquals(tree.size(), 4);
-        Assert.assertEquals(tree.get('A'), (Integer) 10);
-        Assert.assertEquals(tree.min(), (Character) 'A');
-        Assert.assertEquals(tree.max(), (Character) 'D');
-        Assert.assertEquals(tree.floor('E'), (Character) 'D');
-        Assert.assertEquals(tree.floor('B'), (Character) 'B');
-        Assert.assertEquals(tree.rank('B'), 1);
-        Assert.assertEquals(tree.rank('C'), 2);
-    }
-
     public int size() {
         return size(root);
     }
 
-    private int size(Node root) {
+    public int size(Node root) {
         if (root == null) return 0;
         else return root.N;
     }
@@ -115,7 +102,6 @@ public class BST <Key extends Comparable<Key>, Value> {
     }
 
     // find the Node with maximal key of >= k 找到 >= 给定Key的最小Node
-    // find the Node with maximal key of >= k 找到 >= 给定Key的最小Node
     private Node ceiling(Node rt, Key k) {
         if (rt == null) return null;
         int cmp = rt.key.compareTo(k);
@@ -149,7 +135,6 @@ public class BST <Key extends Comparable<Key>, Value> {
         if (cmp < 0) return size(rt.left) + 1 + rank(rt.right, k);
         else if (cmp > 0) return rank(rt.left, k);
         else return size(rt.left);
-
     }
 
     public void deleteMin() {
@@ -230,5 +215,16 @@ public class BST <Key extends Comparable<Key>, Value> {
         if (cmplo < 0) keys(rt.left, answer, lo, hi);
         if (cmphi > 0) keys(rt.right, answer, lo, hi);
     }
-}
 
+    public int height() {
+        return height(root, 0);
+    }
+    //可以把这个传递的参数设置为实例变量height
+    private int height(Node rt, int k) {
+        if (rt == null) return k;
+        int kl = height(rt.left, k+1);
+        int kr = height(rt.right, k+1);
+        return Math.max(kl, kr);
+    }
+
+}
