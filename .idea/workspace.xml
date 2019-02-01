@@ -10,48 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="158" column="32" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
-              <folding>
-                <element signature="class#Node#0;class#BST#0" />
-                <element signature="method#Node#0;class#Node#0;class#BST#0" />
-                <element signature="method#testForInitiation#0;class#BST#0" />
-                <element signature="method#size#0;class#BST#0" />
-                <element signature="method#size#1;class#BST#0" />
-                <element signature="method#get#1;class#BST#0" />
-                <element signature="method#put#1;class#BST#0" />
-                <element signature="e#1072#1092#0" />
-                <element signature="method#min#1;class#BST#0" />
-                <element signature="method#max#1;class#BST#0" />
-                <element signature="method#floor#0;class#BST#0" />
-                <element signature="method#floor#1;class#BST#0" />
-                <element signature="e#2171#2340#1" />
-                <element signature="method#ceiling#1;class#BST#0" />
-                <element signature="e#3353#3382#1" />
-                <element signature="e#3391#3434#1" />
-                <element signature="method#select#1;class#BST#0" />
-                <element signature="e#3717#3754#1" />
-                <element signature="method#rank#1;class#BST#0" />
-                <element signature="method#deleteMin#1;class#BST#0" />
-                <element signature="method#deleteMax#0;class#BST#0" />
-                <element signature="method#deleteMax#1;class#BST#0" />
-                <element signature="method#delete#0;class#BST#0" />
-                <element signature="method#deletePredecessor#0;class#BST#0" />
-                <element signature="e#5025#5087#1" />
-                <element signature="method#deleteSuccessor#0;class#BST#0" />
-                <element signature="e#5586#5622#1" />
-                <element signature="method#keys#1;class#BST#0" />
-                <element signature="method#keys#2;class#BST#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +45,10 @@
         <option value="$PROJECT_DIR$/src/chapter3/BST.java" />
         <option value="$PROJECT_DIR$/src/chapter3/section2/P1.java" />
         <option value="$PROJECT_DIR$/src/chapter2/section3/P22.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/section2/P6.java" />
         <option value="$PROJECT_DIR$/src/chapter3/section2/BST.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/section2/P13.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/section2/P14.java" />
       </list>
     </option>
   </component>
@@ -110,7 +72,14 @@
             </path>
             <path>
               <item name="algorithms4e" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="algorithms4e" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms4e" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms4e" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,7 +118,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BST.testForInitiation">
+  <component name="RunManager" selected="JUnit.P13">
+    <configuration name="BST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter3.section2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter3.section2" />
+      <option name="MAIN_CLASS_NAME" value="chapter3.section2.BST" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BST.testForInitiation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algs" />
       <extension name="coverage">
@@ -166,18 +150,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P17.testForSentinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="P13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter2.section3.*" />
+          <option name="PATTERN" value="chapter3.section2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="chapter2.section3" />
-      <option name="MAIN_CLASS_NAME" value="chapter2.section3.P17" />
-      <option name="METHOD_NAME" value="testForSentinal" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="chapter3.section2" />
+      <option name="MAIN_CLASS_NAME" value="chapter3.section2.P13" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -214,36 +197,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="quickSort.testForPartition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter2.section2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="chapter2.section2" />
-      <option name="MAIN_CLASS_NAME" value="chapter2.section2.quickSort" />
-      <option name="METHOD_NAME" value="testForPartition" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.quickSort.testForPartition" />
       <item itemvalue="JUnit.P17.testForShuffle" />
-      <item itemvalue="JUnit.P17.testForSentinal" />
       <item itemvalue="JUnit.P22.testForQuick3way" />
       <item itemvalue="JUnit.BST.testForInitiation" />
+      <item itemvalue="JUnit.BST" />
+      <item itemvalue="JUnit.P13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.P13" />
+        <item itemvalue="JUnit.BST" />
         <item itemvalue="JUnit.BST.testForInitiation" />
         <item itemvalue="JUnit.P17.testForShuffle" />
         <item itemvalue="JUnit.P22.testForQuick3way" />
-        <item itemvalue="JUnit.P17.testForSentinal" />
-        <item itemvalue="JUnit.quickSort.testForPartition" />
       </list>
     </recent_temporary>
   </component>
@@ -273,12 +240,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 56m 58s.xml">
-      <configuration name="BST.testForInitiation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 57m 42s.xml">
-      <configuration name="BST.testForInitiation" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 58m 13s.xml">
       <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
@@ -303,15 +264,20 @@
     <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 02m 18s.xml">
       <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BST - 2019.01.29 at 13h 15m 14s.xml">
+      <configuration name="BST" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="P13 - 2019.01.29 at 19h 35m 10s.xml">
+      <configuration name="P13" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="66515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17336152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17336152" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,7 +286,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3033226" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3033226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38554215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,7 +296,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.114683814" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.114683814" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -586,40 +552,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/section2/P13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1337">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/section2/P6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3096">
+          <caret line="228" lean-forward="true" selection-start-line="228" selection-end-line="228" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Node#0;class#Node#0" />
+            <element signature="method#size#1;class#Node#0" />
+            <element signature="method#get#1;class#Node#0" />
+            <element signature="method#put#1;class#Node#0" />
+            <element signature="e#1676#1696#0" />
+            <element signature="method#min#1;class#Node#0" />
+            <element signature="method#max#1;class#Node#0" />
+            <element signature="method#floor#0;class#Node#0" />
+            <element signature="method#floor#1;class#Node#0" />
+            <element signature="e#2775#2944#1" />
+            <element signature="method#ceiling#1;class#Node#0" />
+            <element signature="e#3274#3402#1" />
+            <element signature="method#select#1;class#Node#0" />
+            <element signature="method#rank#1;class#Node#0" />
+            <element signature="method#deleteMin#1;class#Node#0" />
+            <element signature="method#deleteMax#1;class#Node#0" />
+            <element signature="method#delete#0;class#Node#0" />
+            <element signature="method#deletePredecessor#0;class#Node#0" />
+            <element signature="e#5016#5287#1" />
+            <element signature="method#deleteSuccessor#0;class#Node#0" />
+            <element signature="e#5645#5895#1" />
+            <element signature="method#keys#1;class#Node#0" />
+            <element signature="method#keys#2;class#P6#0" />
+            <element signature="e#6097#6098#0" expanded="true" />
+            <element signature="e#6127#6128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/section2/P14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="158" column="32" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <element signature="class#Node#0;class#BST#0" />
             <element signature="method#Node#0;class#Node#0;class#BST#0" />
             <element signature="method#testForInitiation#0;class#BST#0" />
             <element signature="method#size#0;class#BST#0" />
             <element signature="method#size#1;class#BST#0" />
             <element signature="method#get#1;class#BST#0" />
-            <element signature="method#put#1;class#BST#0" />
-            <element signature="e#1072#1092#0" />
             <element signature="method#min#1;class#BST#0" />
             <element signature="method#max#1;class#BST#0" />
             <element signature="method#floor#0;class#BST#0" />
             <element signature="method#floor#1;class#BST#0" />
-            <element signature="e#2171#2340#1" />
             <element signature="method#ceiling#1;class#BST#0" />
-            <element signature="e#3353#3382#1" />
-            <element signature="e#3391#3434#1" />
             <element signature="method#select#1;class#BST#0" />
-            <element signature="e#3717#3754#1" />
             <element signature="method#rank#1;class#BST#0" />
             <element signature="method#deleteMin#1;class#BST#0" />
             <element signature="method#deleteMax#0;class#BST#0" />
             <element signature="method#deleteMax#1;class#BST#0" />
             <element signature="method#delete#0;class#BST#0" />
             <element signature="method#deletePredecessor#0;class#BST#0" />
-            <element signature="e#5025#5087#1" />
             <element signature="method#deleteSuccessor#0;class#BST#0" />
-            <element signature="e#5586#5622#1" />
             <element signature="method#keys#1;class#BST#0" />
-            <element signature="method#keys#2;class#BST#0" />
           </folding>
         </state>
       </provider>
