@@ -10,7 +10,74 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf />
+=======
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="1080">
+              <caret line="169" column="49" selection-start-line="169" selection-start-column="49" selection-end-line="169" selection-end-column="49" />
+=======
+            <state relative-caret-position="144">
+              <caret line="158" column="32" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
+>>>>>>> a317f1f52a7053542a52542f60e846b440def5f9
+              <folding>
+                <element signature="method#Node#0;class#Node#0;class#BST#0" />
+                <element signature="method#testForInitiation#0;class#BST#0" />
+                <element signature="method#size#0;class#BST#0" />
+                <element signature="method#size#1;class#BST#0" />
+                <element signature="method#get#1;class#BST#0" />
+                <element signature="method#put#1;class#BST#0" />
+                <element signature="e#1072#1092#0" />
+                <element signature="method#min#1;class#BST#0" />
+                <element signature="method#max#1;class#BST#0" />
+                <element signature="method#floor#0;class#BST#0" />
+                <element signature="method#floor#1;class#BST#0" />
+<<<<<<< HEAD
+                <element signature="e#2184#2264#1" />
+                <element signature="method#ceiling#1;class#BST#0" />
+                <element signature="e#2623#2750#1" />
+                <element signature="e#2793#2836#1" />
+                <element signature="method#select#1;class#BST#0" />
+                <element signature="e#3119#3156#1" />
+                <element signature="method#rank#1;class#BST#0" />
+                <element signature="method#deleteMin#1;class#BST#0" />
+                <element signature="method#deleteMax#1;class#BST#0" />
+                <element signature="e#3988#3989#0" expanded="true" />
+                <element signature="e#4018#4019#0" expanded="true" />
+=======
+                <element signature="e#2171#2340#1" />
+                <element signature="method#ceiling#1;class#BST#0" />
+                <element signature="e#3353#3382#1" />
+                <element signature="e#3391#3434#1" />
+                <element signature="method#select#1;class#BST#0" />
+                <element signature="e#3717#3754#1" />
+                <element signature="method#rank#1;class#BST#0" />
+                <element signature="method#deleteMin#1;class#BST#0" />
+                <element signature="method#deleteMax#0;class#BST#0" />
+                <element signature="method#deleteMax#1;class#BST#0" />
+                <element signature="method#delete#0;class#BST#0" />
+                <element signature="method#deletePredecessor#0;class#BST#0" />
+                <element signature="e#5025#5087#1" />
+                <element signature="method#deleteSuccessor#0;class#BST#0" />
+                <element signature="e#5586#5622#1" />
+                <element signature="method#keys#1;class#BST#0" />
+                <element signature="method#keys#2;class#BST#0" />
+>>>>>>> a317f1f52a7053542a52542f60e846b440def5f9
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
+>>>>>>> 53a98907726cc2e3a463db59e7bc379a0a2ab63d
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,7 +112,10 @@
         <option value="$PROJECT_DIR$/src/chapter3/BST.java" />
         <option value="$PROJECT_DIR$/src/chapter3/section2/P1.java" />
         <option value="$PROJECT_DIR$/src/chapter2/section3/P22.java" />
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/src/chapter3/section2/P6.java" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
         <option value="$PROJECT_DIR$/src/chapter3/section2/BST.java" />
         <option value="$PROJECT_DIR$/src/chapter3/section2/P13.java" />
         <option value="$PROJECT_DIR$/src/chapter3/section2/P14.java" />
@@ -75,6 +145,9 @@
             </path>
             <path>
               <item name="algorithms4e" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+=======
               <item name="algorithms4e" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -83,6 +156,7 @@
               <item name="algorithms4e" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter3" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
             </path>
           </expand>
           <select />
@@ -94,8 +168,18 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548677373026" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lib" />
+=======
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548670030617" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../lib" />
+>>>>>>> a317f1f52a7053542a52542f60e846b440def5f9
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548670030617" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lib" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -120,8 +204,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="JUnit.BST.testForInitiation">
+    <configuration name="BST.testForInitiation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
   <component name="RunManager" selected="JUnit.P13">
     <configuration name="BST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <module name="algs" />
       <extension name="coverage">
         <pattern>
@@ -131,12 +220,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="chapter3.section2" />
       <option name="MAIN_CLASS_NAME" value="chapter3.section2.BST" />
+<<<<<<< HEAD
+      <option name="METHOD_NAME" value="testForInitiation" />
+      <option name="TEST_OBJECT" value="method" />
+=======
       <option name="TEST_OBJECT" value="class" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="P17.testForSentinal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="BST.testForInitiation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <module name="algs" />
       <extension name="coverage">
         <pattern>
@@ -144,15 +242,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="chapter2.section3" />
+      <option name="MAIN_CLASS_NAME" value="chapter2.section3.P17" />
+      <option name="METHOD_NAME" value="testForSentinal" />
+=======
       <option name="PACKAGE_NAME" value="chapter3.section2" />
       <option name="MAIN_CLASS_NAME" value="chapter3.section2.BST" />
       <option name="METHOD_NAME" value="testForInitiation" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="P17.testForShuffle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="P13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <module name="algs" />
       <extension name="coverage">
         <pattern>
@@ -160,14 +268,25 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+<<<<<<< HEAD
+      <option name="PACKAGE_NAME" value="chapter2.section3" />
+      <option name="MAIN_CLASS_NAME" value="chapter2.section3.P17" />
+      <option name="METHOD_NAME" value="testForShuffle" />
+      <option name="TEST_OBJECT" value="method" />
+=======
       <option name="PACKAGE_NAME" value="chapter3.section2" />
       <option name="MAIN_CLASS_NAME" value="chapter3.section2.P13" />
       <option name="TEST_OBJECT" value="class" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="P22.testForQuick3way" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="P17.testForShuffle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <module name="algs" />
       <extension name="coverage">
         <pattern>
@@ -176,8 +295,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="chapter2.section3" />
+<<<<<<< HEAD
+      <option name="MAIN_CLASS_NAME" value="chapter2.section3.P22" />
+      <option name="METHOD_NAME" value="testForQuick3way" />
+=======
       <option name="MAIN_CLASS_NAME" value="chapter2.section3.P17" />
       <option name="METHOD_NAME" value="testForShuffle" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -200,9 +324,23 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
+      <item itemvalue="JUnit.quickSort.testForPartition" />
+=======
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <item itemvalue="JUnit.P17.testForShuffle" />
       <item itemvalue="JUnit.P22.testForQuick3way" />
       <item itemvalue="JUnit.BST.testForInitiation" />
+<<<<<<< HEAD
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BST.testForInitiation" />
+        <item itemvalue="JUnit.P17.testForShuffle" />
+        <item itemvalue="JUnit.P22.testForQuick3way" />
+        <item itemvalue="JUnit.P17.testForSentinal" />
+        <item itemvalue="JUnit.quickSort.testForPartition" />
+=======
       <item itemvalue="JUnit.BST" />
       <item itemvalue="JUnit.P13" />
     </list>
@@ -213,6 +351,7 @@
         <item itemvalue="JUnit.BST.testForInitiation" />
         <item itemvalue="JUnit.P17.testForShuffle" />
         <item itemvalue="JUnit.P22.testForQuick3way" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       </list>
     </recent_temporary>
   </component>
@@ -237,11 +376,42 @@
       <workItem from="1548163603825" duration="2566000" />
       <workItem from="1548248041160" duration="605000" />
       <workItem from="1548323355766" duration="2288000" />
-      <workItem from="1548571377880" duration="8023000" />
+      <workItem from="1548571377880" duration="11750000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 56m 58s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 57m 42s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 58m 13s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 59m 29s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 59m 51s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 00m 06s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 00m 51s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 01m 14s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 02m 04s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BST_testForInitiation - 2019.01.29 at 01h 02m 18s.xml">
+      <configuration name="BST.testForInitiation" configurationId="JUnit" />
+=======
     <history-entry file="BST_testForInitiation - 2019.01.29 at 00h 58m 13s.xml">
       <configuration name="BST.testForInitiation" configurationId="JUnit" />
     </history-entry>
@@ -271,15 +441,22 @@
     </history-entry>
     <history-entry file="P13 - 2019.01.29 at 19h 35m 10s.xml">
       <configuration name="P13" configurationId="JUnit" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66515000" />
+    <option name="totallyTimeSpent" value="70242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+<<<<<<< HEAD
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17336152" />
+=======
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17336152" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -288,7 +465,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3033226" />
+=======
       <window_info anchor="bottom" id="Run" order="2" weight="0.3033226" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38554215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,7 +479,11 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.114683814" />
+=======
       <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.114683814" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -520,6 +705,39 @@
     <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section4/Exercise24_PriorityQueueExplicitLinks.java" />
     <entry file="file://$PROJECT_DIR$/../algorithms-sedgewick-wayne/src/chapter2/section5/Exercise2.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter2/section4/BinaryHeap.java">
+<<<<<<< HEAD
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/section2/P1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-11.0.2/lib/src.zip!/java.base/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/chapter2/section3/P22Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter2/section3/P22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -596,10 +814,35 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1656">
           <caret line="163" column="51" selection-start-line="163" selection-start-column="51" selection-end-line="163" selection-end-column="51" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/chapter3/section2/P14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="1080">
+          <caret line="169" column="49" selection-start-line="169" selection-start-column="49" selection-end-line="169" selection-end-column="49" />
+=======
+        <state relative-caret-position="144">
+          <caret line="158" column="32" selection-start-line="158" selection-start-column="32" selection-end-line="158" selection-end-column="32" />
+>>>>>>> a317f1f52a7053542a52542f60e846b440def5f9
+=======
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
+>>>>>>> 53a98907726cc2e3a463db59e7bc379a0a2ab63d
           <folding>
             <element signature="class#Node#0;class#BST#0" />
             <element signature="method#Node#0;class#Node#0;class#BST#0" />
@@ -607,26 +850,72 @@
             <element signature="method#size#0;class#BST#0" />
             <element signature="method#size#1;class#BST#0" />
             <element signature="method#get#1;class#BST#0" />
+<<<<<<< HEAD
             <element signature="method#put#1;class#BST#0" />
             <element signature="e#1812#1832#0" />
+=======
+<<<<<<< HEAD
+            <element signature="method#put#1;class#BST#0" />
+            <element signature="e#1072#1092#0" />
+=======
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
+>>>>>>> 53a98907726cc2e3a463db59e7bc379a0a2ab63d
             <element signature="method#min#1;class#BST#0" />
             <element signature="method#max#1;class#BST#0" />
             <element signature="method#floor#0;class#BST#0" />
             <element signature="method#floor#1;class#BST#0" />
+<<<<<<< HEAD
             <element signature="e#2911#3080#1" />
             <element signature="method#ceiling#1;class#BST#0" />
             <element signature="e#3410#3538#1" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <element signature="e#2184#2264#1" />
+            <element signature="method#ceiling#1;class#BST#0" />
+            <element signature="e#2623#2750#1" />
+            <element signature="e#2793#2836#1" />
+>>>>>>> 53a98907726cc2e3a463db59e7bc379a0a2ab63d
             <element signature="method#select#1;class#BST#0" />
+            <element signature="e#3119#3156#1" />
+            <element signature="method#rank#1;class#BST#0" />
+            <element signature="method#deleteMin#1;class#BST#0" />
+            <element signature="method#deleteMax#1;class#BST#0" />
+            <element signature="e#3988#3989#0" expanded="true" />
+            <element signature="e#4018#4019#0" expanded="true" />
+=======
+            <element signature="e#2171#2340#1" />
+            <element signature="method#ceiling#1;class#BST#0" />
+            <element signature="e#3353#3382#1" />
+            <element signature="e#3391#3434#1" />
+            <element signature="method#select#1;class#BST#0" />
+            <element signature="e#3717#3754#1" />
+=======
+            <element signature="method#ceiling#1;class#BST#0" />
+            <element signature="method#select#1;class#BST#0" />
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
             <element signature="method#rank#1;class#BST#0" />
             <element signature="method#deleteMin#1;class#BST#0" />
             <element signature="method#deleteMax#0;class#BST#0" />
             <element signature="method#deleteMax#1;class#BST#0" />
             <element signature="method#delete#0;class#BST#0" />
             <element signature="method#deletePredecessor#0;class#BST#0" />
+<<<<<<< HEAD
             <element signature="e#5152#5423#1" />
+=======
+<<<<<<< HEAD
+            <element signature="e#5025#5087#1" />
+            <element signature="method#deleteSuccessor#0;class#BST#0" />
+            <element signature="e#5586#5622#1" />
+            <element signature="method#keys#1;class#BST#0" />
+            <element signature="method#keys#2;class#BST#0" />
+>>>>>>> a317f1f52a7053542a52542f60e846b440def5f9
+=======
+>>>>>>> 53a98907726cc2e3a463db59e7bc379a0a2ab63d
             <element signature="method#deleteSuccessor#0;class#BST#0" />
             <element signature="e#5781#6031#1" />
             <element signature="method#keys#1;class#BST#0" />
+<<<<<<< HEAD
             <element signature="method#keys#2;class#BST#0" />
           </folding>
         </state>
@@ -653,6 +942,9 @@
             <element signature="e#1648#1692#1" />
             <element signature="e#2445#2446#0" expanded="true" />
             <element signature="e#2479#2480#0" expanded="true" />
+=======
+>>>>>>> 486f14703c8fcb6c9a992d1111dfb39c8ba5f6e9
+>>>>>>> 53a98907726cc2e3a463db59e7bc379a0a2ab63d
           </folding>
         </state>
       </provider>
