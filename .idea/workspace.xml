@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,6 +49,8 @@
         <option value="$PROJECT_DIR$/src/chapter3/section2/BST.java" />
         <option value="$PROJECT_DIR$/src/chapter3/section2/P13.java" />
         <option value="$PROJECT_DIR$/src/chapter3/section2/P14.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/section3/RedBlackBST.java" />
+        <option value="$PROJECT_DIR$/src/chapter3/section3/P25.java" />
       </list>
     </option>
   </component>
@@ -63,6 +65,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,7 +88,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -594,28 +596,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter3/section2/P14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter3/section2/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="1656">
+          <caret line="163" column="51" selection-start-line="163" selection-start-column="51" selection-end-line="163" selection-end-column="51" />
           <folding>
+            <element signature="class#Node#0;class#BST#0" />
             <element signature="method#Node#0;class#Node#0;class#BST#0" />
             <element signature="method#testForInitiation#0;class#BST#0" />
             <element signature="method#size#0;class#BST#0" />
             <element signature="method#size#1;class#BST#0" />
             <element signature="method#get#1;class#BST#0" />
+            <element signature="method#put#1;class#BST#0" />
+            <element signature="e#1812#1832#0" />
             <element signature="method#min#1;class#BST#0" />
             <element signature="method#max#1;class#BST#0" />
             <element signature="method#floor#0;class#BST#0" />
             <element signature="method#floor#1;class#BST#0" />
+            <element signature="e#2911#3080#1" />
             <element signature="method#ceiling#1;class#BST#0" />
+            <element signature="e#3410#3538#1" />
             <element signature="method#select#1;class#BST#0" />
             <element signature="method#rank#1;class#BST#0" />
             <element signature="method#deleteMin#1;class#BST#0" />
@@ -623,9 +623,44 @@
             <element signature="method#deleteMax#1;class#BST#0" />
             <element signature="method#delete#0;class#BST#0" />
             <element signature="method#deletePredecessor#0;class#BST#0" />
+            <element signature="e#5152#5423#1" />
             <element signature="method#deleteSuccessor#0;class#BST#0" />
+            <element signature="e#5781#6031#1" />
             <element signature="method#keys#1;class#BST#0" />
+            <element signature="method#keys#2;class#BST#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/section2/P14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/section3/P25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="116" column="11" selection-start-line="116" selection-start-column="11" selection-end-line="116" selection-end-column="11" />
+          <folding>
+            <element signature="method#Node#0;class#Node#0;class#TopDown234#0;class#P25#0" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#771#812#1" />
+            <element signature="method#rotateLeft#0;class#TopDown234#0;class#P25#0" />
+            <element signature="method#rotateRight#0;class#TopDown234#0;class#P25#0" />
+            <element signature="e#1648#1692#1" />
+            <element signature="e#2445#2446#0" expanded="true" />
+            <element signature="e#2479#2480#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter3/section3/RedBlackBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
