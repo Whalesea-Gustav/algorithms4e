@@ -113,6 +113,7 @@ public class P25 {
             if (isRed(rt.left) && !isRed(rt.right)) rt = rotateLeft(rt);
             if (isRed(rt.left) && isRed(rt.left.left)) rt = rotateRight(rt);
 
+            //rebuild size
             rt.size = size(rt.left) + size(rt.right) + 1;
 
             return rt;
